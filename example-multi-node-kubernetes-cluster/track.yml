@@ -1,0 +1,22 @@
+slug: example-multi-node-kubernetes-cluster
+type: track
+title: Example - Multi-node Kubernetes cluster
+teaser: Setup a Kubernetes cluster on multiple sandbox hosts
+description: |-
+  Setup a Kubernetes cluster on multiple sandbox hosts. You need multiple
+  hosts if you want to teach advanced features like pod affinity and anti-affinity.
+
+  **This track demonstrates how to:**
+    - Provision a multi-node k3s cluster
+    - Use a predefined Instruqt image with k3s
+    - Pass parameters to a sandbox host using environment variables
+    - Use the track setup script to block loading the track until all services are up
+icon: https://cdn.instruqt.com/assets/templates/kubernetes.png
+tags:
+- ""
+owner: okta
+developers:
+- noi.narisak@okta.com
+private: true
+published: false
+show_timer: true
